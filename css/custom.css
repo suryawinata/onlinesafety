@@ -1,0 +1,35 @@
+.top-menu-wrapper{
+	display: none;
+}
+.logo{
+	margin-top: 20px;
+	margin-left: 20px
+}
+.oseti-logo{
+	height: 120px;
+}
+.main-page-wrapper .top-background:after,footer#footer:before{
+	background: none;
+}
+.main-page-wrapper .top-background{
+	background: transparent url("../img/bg.png") no-repeat 50% top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	padding:0;
+}
+.main-menu ul{
+	margin-top: 20px;
+}
+
+[class*="span"]{
+	margin-left: 0px;
+}
+
+.main-menu ul.sub-nav {
+  margin-top: 0;
+}
