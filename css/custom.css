@@ -33,3 +33,30 @@
 .main-menu ul.sub-nav {
   margin-top: 0;
 }
+.top-background.template{
+	height:auto!important;
+}
+.clients .extra-wrap {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    border-left: 2px solid #ccc;
+    margin-left: 20px;
+}
+.clients>h3{
+    display: inline-block;
+}
+.client-area{
+	height:250px;
+}
+.client-area img{
+	width:80%;
+    display: block;
+    margin: 0 auto;
+}
+.client-area h4{
+	text-align: center;
+}
+.give-margin{
+	margin-top: 30px;
+}

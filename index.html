@@ -20,8 +20,10 @@
         <!-- Including Slider styles -->
         <link rel="stylesheet" href="css/slider.css?v=2.0" />
         <!-- Including main template styles -->
-        <link rel="stylesheet" href="css/main.css?v=1.2">
-        <link rel="stylesheet" href ="css/custom.css?v=1.0">
+        <link rel="stylesheet" href="css/main.css?v=1.4">
+        <link rel="stylesheet" href ="css/custom.css?v=1.2">
+        <link rel="stylesheet" href="css/slicknav.min.css" />
+
         <!-- Loading jQuery liblary from CDN with a local fallback when CDN not responding.
              Version 2.0 is available but it is the same as 1.9.1 but without IE8 support -->
     	<!-- Load jQuery from CDN -->
@@ -42,26 +44,27 @@
         <div class="main-page-wrapper">
 
             <div class="top-background">
-
+                <div id="menu-mobile"></div>
                 <div class="mobile-nav off"></div><!-- mobile-nav end -->
 
                 <header class="container">
 
                     <div class="row">
 
-                        <div class="span4">
+                        <div class="span3">
                             <h1 class="logo clearfix">
                                 <a href="index.html"><img src="img/OSETI/oseti-right.png" alt="oseti-logo" class="oseti-logo"></a>
                             </h1>
                         </div> <!-- end span4 -->
 
-                        <div class="span8">
+                        <div class="span9">
 
                             <nav class="main-menu">
                                 <ul>
                                     <li><a href="index.html" data-description="">Home</a></li>
                                     <li><a href="services.html" data-description="">Services</a></li>
                                     <li><a href="about.html" data-description="">About</a></li>
+                                    <li><a href="clients.html" data-description="">Clients</a></li>
                                     <li><a href="training.html" data-description="">Training</a></li>
                                     <li><a href="contact.html" data-description="">Contact</a></li>
                                 </ul>
@@ -340,9 +343,9 @@
 
         <!-- Slider script -->
         <script src="js/jquery.sequence-min.js"></script>
-
+        <script src="js/jquery.slicknav.min.js"></script>
         <!-- Main file containing all other scripts. This is done to avoid multiple HTTP requests -->
-        <script src="js/main.js?v=1.2"></script>
-
+        <script src="js/main.js?v=1.34"></script>
+        
     </body>
 </html>

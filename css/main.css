@@ -992,6 +992,9 @@ hr {
   margin-bottom: 20px;
   padding: 20px 40px 20px 20px;
 }
+#menu-mobile{
+  display:none;
+}
 /*******************************************************
 * Staff styles
 *******************************************************/
@@ -1898,7 +1901,7 @@ footer#footer hr {
 *******************************************************/
 @media (min-width: 768px) and (max-width: 979px) {
   body.home .top-background {
-    height: 533px;
+    height: auto !important;
   }
   body.home .top-background:after {
     margin-top: -68px;
@@ -2055,13 +2058,27 @@ footer#footer hr {
     height: 450px;
     margin-top: 10px;
   }
+
 }
 /*******************************************************
 * Small tablets and phones
 *******************************************************/
 @media (max-width: 767px) {
+  #sequence > .sequence-canvas > li img{
+    top:0;
+    height:75%;
+  }
+  .sequence-next, .sequence-prev{
+    top:35%;
+  }
   .top-menu-wrapper {
     height: 50px;
+  }
+  #sequence > .sequence-canvas > li{
+    top:0px;
+  }
+  #menu-mobile{
+    display:block;
   }
   .top-menu-wrapper .top-menu {
     height: 50px;
@@ -2154,15 +2171,12 @@ footer#footer hr {
     padding-left: 80px;
     font-weight: 300;
   }
-  .mobile-nav.off {
-    display: none;
-  }
   .logo {
     text-align: center;
     margin-top: 20px;
   }
   body.home .top-background {
-    height: 487px !important;
+    height: auto !important;
   }
   body.home .top-background:after {
     margin-top: -157px !important;
@@ -2177,7 +2191,10 @@ footer#footer hr {
     top: -19px;
   }
   #slider-container .slider-image {
-    display: none;
+    display: block;
+  }
+  .slider-image{
+    bottom:0%;
   }
   #slider-container .title {
     font-size: 20px;
@@ -2482,9 +2499,6 @@ footer#footer hr {
   }
 }
 @media (min-width: 321px) and (max-width: 481px) {
-  body.home .top-background {
-    height: 450px !important;
-  }
   body.home .top-background:after {
     margin-top: -174px !important;
   }
@@ -2508,10 +2522,6 @@ footer#footer hr {
   }
   .slider-cta a {
     margin: 0 !important;
-  }
-  .sequence-prev,
-  .sequence-next {
-    top: 48% !important;
   }
 }
 @media (min-width: 1px) and (max-width: 320px) {
