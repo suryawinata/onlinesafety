@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/suryawinata/onlinesafety/issues"
   },
-  "homepage": "https://github.com/suryawinata/onlinesafety"
+  "homepage": "https://github.com/suryawinata/onlinesafety",
+  "dependencies": {
+    "http-server": "^0.8.0"
+  }
 }
